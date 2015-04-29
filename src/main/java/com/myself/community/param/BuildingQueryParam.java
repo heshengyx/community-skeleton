@@ -31,4 +31,5 @@ public class BuildingQueryParam extends QueryParam {
 	public void setBuildingName(String buildingName) {
 		this.buildingName = buildingName;
 	}
+	
 }

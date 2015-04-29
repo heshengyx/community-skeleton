@@ -33,6 +33,4 @@ public class QueryParam implements Serializable {
 	public void setLength(int length) {
 		this.length = length;
 	}
-	
-	
 }
