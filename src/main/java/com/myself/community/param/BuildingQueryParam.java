@@ -1,9 +1,8 @@
 package com.myself.community.param;
 
-import java.io.Serializable;
 import java.util.Date;
 
-public class BuildingQueryParam implements Serializable {
+public class BuildingQueryParam extends QueryParam {
 
 	private String buildingName;
 	private String status;
