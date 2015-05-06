@@ -4,9 +4,27 @@ import java.util.Date;
 
 public class RegionQueryParam extends QueryParam {
 
+	private String parentId;
 	private String name;
 	private String status;
+	private String level;
 	private Date createTime;
+
+	public String getParentId() {
+		return parentId;
+	}
+
+	public void setParentId(String parentId) {
+		this.parentId = parentId;
+	}
+
+	public String getLevel() {
+		return level;
+	}
+
+	public void setLevel(String level) {
+		this.level = level;
+	}
 
 	public String getStatus() {
 		return status;
