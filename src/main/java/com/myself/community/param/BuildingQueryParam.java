@@ -6,7 +6,25 @@ public class BuildingQueryParam extends QueryParam {
 
 	private String buildingName;
 	private String status;
+	private String startDate;
+	private String endDate;
 	private Date createTime;
+
+	public String getStartDate() {
+		return startDate;
+	}
+
+	public void setStartDate(String startDate) {
+		this.startDate = startDate;
+	}
+
+	public String getEndDate() {
+		return endDate;
+	}
+
+	public void setEndDate(String endDate) {
+		this.endDate = endDate;
+	}
 
 	public String getStatus() {
 		return status;
