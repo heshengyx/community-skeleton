@@ -3,10 +3,11 @@ package com.myself.community.entity;
 import java.io.Serializable;
 import java.util.Date;
 
-public class Building implements Serializable {
+public class BuildingData implements Serializable {
 
 	private String id;
-	private String townId;
+	private String districtName;
+	private String townName;
 	private String buildingName;
 	private String buildingYear;
 	private String buildingFloor;
@@ -15,11 +16,17 @@ public class Building implements Serializable {
 	private Date updateTime;
 	private String remarks;
 	
-	public String getTownId() {
-		return townId;
+	public String getDistrictName() {
+		return districtName;
 	}
-	public void setTownId(String townId) {
-		this.townId = townId;
+	public void setDistrictName(String districtName) {
+		this.districtName = districtName;
+	}
+	public String getTownName() {
+		return townName;
+	}
+	public void setTownName(String townName) {
+		this.townName = townName;
 	}
 	public String getId() {
 		return id;
