@@ -6,12 +6,21 @@ import java.util.Date;
 public class Permission implements Serializable {
 
 	private String id;
+	private String parentId;
 	private String name;
 	private String url;
 	private String status;
 	private Date createTime;
 	private Date updateTime;
 	private String remarks;
+
+	public String getParentId() {
+		return parentId;
+	}
+
+	public void setParentId(String parentId) {
+		this.parentId = parentId;
+	}
 
 	public String getStatus() {
 		return status;
